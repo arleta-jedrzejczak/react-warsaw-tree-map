@@ -1,0 +1,40 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+*.log*
+log/
+logs/
+*-FAILED.txt
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+gui/src/main/web/package-lock.json
+gui/node
+gui/src/main/web/node_modules/
+gui/src/main/web/documentation/
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### Capistrano ###
+log/capistrano.log
+/gui/src/main/web/node/
+
+node_modules/
+/Gemfile.lock
